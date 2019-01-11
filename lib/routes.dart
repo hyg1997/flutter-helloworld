@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'screens/login/index.dart';
+import 'screens/home/index.dart';
 
 class Routes {
   final routes = <String, WidgetBuilder>{
-    '/Auth': (BuildContext context) => new Login()
+    '/Login': (BuildContext context) => new Login(),
+    '/Home': (BuildContext context) => new Home()
   };
 
   Routes() {
